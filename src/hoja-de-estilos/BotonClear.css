@@ -6,10 +6,10 @@
   justify-content: center;
   font-weight: bold;
   font-size: 38px;
-  background-color: yellow;
-  color: orangered;
+  background-color: rgb(97, 36, 167);
+  color: white;
   border-radius: 25px;
-  border: 2px solid white;
+  border: 2px solid rgb(30, 13, 95);
   margin: 4px;
   cursor: pointer;
   user-select: none;
@@ -17,5 +17,5 @@
 
 .boton-clear:hover {
   color: yellow;
-  background-color: orangered;
+  background-color: rgb(88, 6, 71);
 }

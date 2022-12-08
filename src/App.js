@@ -1,4 +1,8 @@
-import Logo_fondo_blanco from "./Logo_fondo_blanco.png";
+import Logo_fondo_blanco from "./Imagenes/Logo_fondo_blanco.png";
+import js from "./Imagenes/js.png";
+import htmlima from "./Imagenes/htmlima.png";
+import cssima from "./Imagenes/cssima.png";
+import Reactima from "./Imagenes/Reactima.png";
 import './App.css';
 import Boton from "./Componentes/Boton.js";
 import Pantalla from "./Componentes/Pantalla.js";
@@ -29,6 +33,12 @@ function App() {
     <div className="App">
       <div className='contenedor-logo' >
         <img src={Logo_fondo_blanco} className="josel-logo" alt="Logo Joseld" />
+      </div>
+      <div className="social">
+        <img src={js} className="prueba" alt="javascript" />
+        <img src={htmlima} className="prueba" alt="html" />
+        <img src={cssima} className="prueba" alt="css" />
+        <img src={Reactima} className="prueba" alt="react" />
       </div>
       <div className="contenedor-calculadora">
         <Pantalla
