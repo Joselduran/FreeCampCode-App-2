@@ -31,6 +31,7 @@ html,
 body {
   background-image: url(./Imagenes/Prueba.jpg);
   background-size: cover;
+  background-color: aquamarine;
   width: 1450px;
   height: 800px;
 }
